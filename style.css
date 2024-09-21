@@ -1,0 +1,115 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Principalfount;
+    src: url(Fount/Letters\ for\ Learners.ttf);
+}
+
+
+html{
+    margin-left: 60px;
+    margin-right: 60px;
+font-family: Principalfount;
+font-size: 20px;
+}
+h1{
+    font-size: 3rem;
+}
+header,footer{
+    background-color: rgb(120, 120, 243);
+    display: flex;
+    align-items: center;/* horizontal */
+    justify-content: space-around;/* vertical*/
+}
+
+img{
+    width: 100%;
+
+}
+
+.logo{
+    width: 120px;
+    padding: 15px;
+
+}
+
+.logo img{
+    border-radius: 50px;
+    border: 2px solid blue;
+
+}
+
+nav{
+    background-color: rgb(166, 166, 229);
+    padding: 15px;
+
+}
+nav a{
+    background-color: rgb(199, 229, 255);
+    color: rgb(0, 0, 0);
+    padding: 6px 10px ;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px 3px cornflowerblue;
+    border-radius: 15px;
+}
+
+nav a:hover{
+    background-color: rgb(0, 0, 0);
+    color:  rgb(199, 229, 255);;
+}
+
+main{
+    /* background-color: rgb(96, 196, 196); */
+    min-height: 100vh;
+    background-image: url(images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    /* background: linear-gradient(to bottom right, blue, pink); */
+    padding: 30px 0;
+}
+
+.cuadro-px{
+    width: 500px;
+    height: 330px;
+    padding: 20px;
+    margin: 24px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid black;
+}
+
+.cuadro-rem{
+    width: 31.25rem;
+    height: 20.625rem;
+    padding: 1.25rem;
+    margin: 1.5rem auto;
+    background-color:  rgba(255, 255, 255, 0.4);
+    border: 2px solid black;
+}
+
+.em{
+    font-size: 30px;
+}
+
+.cuadro-em{
+    width: 31.25em;
+    height: 20.625em;
+    padding: 1.25em;
+    margin: 1.5em auto;
+    background-color:  rgba(255, 255, 255, 0.4);
+    border: 2px solid black;
+}
+.columnas{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 3%;
+}
+
+.columnas .dos{
+    width: 45%;
+}
